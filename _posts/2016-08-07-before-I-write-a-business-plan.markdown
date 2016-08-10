@@ -63,8 +63,8 @@ If, however, I'm satisfied with all of my answers, I'm ready to start a business
 
   <ol>
     <li>Who conducted the study, using what methods? What are their biases?</li>
-    <li><a href="https://en.wikipedia.org/wiki/Niche_market">Niche Market</a>, Wikipedia</li>
-    <li><a href="https://en.wikipedia.org/wiki/Cash_flow">Cash Flow</a>, Wikipedia</li>
+    <li>Niche Market, Wikipedia <a href="https://en.wikipedia.org/wiki/Niche_market">&#8618;</a></li>
+    <li>Cash Flow, Wikipedia <a href="https://en.wikipedia.org/wiki/Cash_flow">&#8618;</a></li>
   </ol>
 
 </div>

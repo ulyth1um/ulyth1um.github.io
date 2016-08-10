@@ -1,0 +1,42 @@
+#sidebar {
+  @media #{$large} {
+    @include margin-leader(1.25);
+  }
+}
+
+#sidebar-nav {
+  display: none;
+  @media #{$large} {
+    display: block;
+  }
+}
+
+#sidebar-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#sidebar h1 {
+  background-image: url(/images/assets/mduncan-logo-web-2x.png);
+  background-image: url(/images/assets/mduncan-logo-web.svg);
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  background-size: 150px; 
+  text-indent: -999999px;
+  @media #{$large} {
+    background-size: 150px; 
+    margin-bottom: 0;
+  }
+  @media screen and (min-width: 1000px) {
+    background-size: 200px; 
+  }
+}
+
+#masthead {
+  margin-right: 1em;
+}
+
+#masthead p {
+  @include margin-trailer(1);
+}

@@ -1,0 +1,40 @@
+#row {
+  margin:0 auto;
+  position:relative;
+}
+
+#sg-sidebar {
+  background-color: $gray;  
+  padding: 1em;
+  width: 100%;  
+  @media #{$large} {
+    height:100%;
+    overflow-y:hidden;
+    position:fixed;
+    top: 0;
+    width: 25%;
+    z-index:0;
+    display: block;
+  }
+}
+
+#sg-sidebar-back {
+  display: inline-block;
+  padding-top: 6px;
+  @media #{$large} {
+    padding: 0;
+  }
+}
+
+#sg-content {
+  @media #{$large} {
+    margin-left:25%;
+  }
+}
+
+#sg-footer {
+  background: $gray;
+  margin-bottom: 1em;
+  padding: 1em;
+  width: 100%;
+}

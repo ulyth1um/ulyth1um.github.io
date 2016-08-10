@@ -1,0 +1,15 @@
+.button, #category-cloud a {
+  background-color: $main;
+  border: 2px solid $main;
+  color: #fff;
+  display: inline-block;
+  margin: 0 0.5em 0.75em 0;
+  padding: 0.75em 1em 0.5em 1em;
+  text-decoration: none;
+}
+
+.button:hover, #category-cloud a:hover {
+  background-color: transparent;
+  color: $main;
+  text-decoration: none;
+}

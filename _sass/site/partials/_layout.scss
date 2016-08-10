@@ -1,0 +1,50 @@
+#main {
+  position: relative;
+}
+
+#sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  @media #{$large} {
+    position: relative;
+  }
+}
+
+#content {
+  @include margin-leader(6);
+  padding: 1em;
+  @media #{$large} {
+    @include margin-leader(0);
+    padding: 0;
+  }
+}
+
+#home-article, #about, #archive, .post-page {
+  @media #{$medium} {
+    margin: 0 12.5%;
+    @include margin-leader(2);
+  }
+}
+
+#home-previously-published {
+  @media #{$medium} {
+    margin: 0 12.5%;
+    @include margin-leader(4);
+    @include margin-trailer(4);
+  }
+}
+
+#footer {
+  background-color: $gray;
+  @include padding-leader(0.5);
+  @include padding-trailer(0.5);
+}
+
+#about, #archive {
+  @media #{$medium} {
+    min-height: 30em;
+  }
+}
+
+

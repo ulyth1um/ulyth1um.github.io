@@ -1,0 +1,38 @@
+.nav-toggle {
+  @include margin-leader(1);
+  @include margin-trailer(1);
+  @include adjust-font-size-to(12px);
+  font-family: 'AvenirNext-DemiBold', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+  background-color: $main;
+  border-radius: 12px;
+  color: #fff;
+  display: block;
+  float: right;
+  margin-right: 1em;
+  padding: 0.65em 1em 0.5em 1em;
+  text-transform: uppercase;
+}
+
+.sg .nav-toggle {
+  margin: 0;
+}
+
+.nav-toggle:hover {
+  background-color: darken($main, 10%) ;
+  text-decoration: none;
+}
+
+#main-nav {
+  list-style: none;
+  @include margin-leader(0.5);
+  @media #{$large} {
+    display: none;
+  }
+}
+
+#main-nav li {
+  @include padding-leader(0.25);
+  @include padding-trailer(0.25);
+  text-align: center;
+  text-transform: uppercase;
+}

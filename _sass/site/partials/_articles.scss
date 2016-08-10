@@ -1,0 +1,17 @@
+.articles-category {
+  @include adjust-font-size-to(16px);
+}
+
+.article-month {
+  @include adjust-font-size-to(14px);
+  font-family: 'AvenirNextCondensed-DemiBold', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;  
+  text-transform: uppercase;
+}
+
+.article-summary-month h2 {
+  margin-bottom: 0;
+}
+
+.article-summary-month p {
+  @include margin-trailer(2);
+}

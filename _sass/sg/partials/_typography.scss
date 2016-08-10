@@ -1,0 +1,20 @@
+pre {
+  background-color: $gray;
+  @include adjust-font-size-to(14px);
+  overflow: auto!important;
+  padding: 1em;
+}
+
+.sg-example .sg-typography {
+  margin: 0;
+}
+
+#sg-sidebar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 2em 0 1em;
+}
+
+#sg-footer h3 {
+  margin: 0;
+}

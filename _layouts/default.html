@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    
+    {% include _layout/nav.html %}
+    
+    <div id="main" class="row">
+      <div id="content" class="unit size6of8">
+      
+        {{ content }}
+      
+      </div>
+ 
+      {% include _layout/sidebar.html %}
+ 
+    </div>
+
+    {% include _layout/footer.html %}
+    {% include _layout/footer-scripts.html %}
+
+  </body>
+</html>

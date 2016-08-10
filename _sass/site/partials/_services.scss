@@ -1,0 +1,9 @@
+#web-design-services p {
+  font-family: 'AvenirNext-DemiBold', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+  @include adjust-font-size-to(22px);
+  @include adjust-leading-to(1);
+  @media #{$large} {
+    @include adjust-font-size-to(24px);
+    @include adjust-leading-to(1);
+  }
+}

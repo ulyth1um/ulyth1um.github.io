@@ -1,0 +1,586 @@
+---
+layout: sg
+title: Grid • M. Duncan • Style Guide 
+permalink: /style-guide/grid/
+---
+
+<style>
+
+.sg-example p {
+  font-size: 1em;
+  margin: 0;
+}
+
+.sg-example .label {
+  margin: 1em;
+}
+
+.sg-example .unit {
+  background-color: #f4f4f4;
+  padding: 1em;
+}
+
+
+.sg-example .unit p {
+  background-color: #fff;
+  padding: 1em;
+}
+
+.sg-example .group {
+  margin: 0;
+  padding: 0;
+}
+
+.sg-example .row {
+  background-color: #f4f4f4;
+}
+
+.size1of12 p {
+  font-size: 11px;
+}
+    
+
+</style>
+
+<h1>Grid</h1>
+  <ul>
+    <li>A simple 12 column, fluid, mobile first grid system.</li>
+    <li>1em/16px gutter</li>
+    <li>Clearfix</li>
+    <li>Influences</li>
+    <li>Demo</li>
+  </ul>
+
+<h2>Basic proportions</h2>
+<h3>1of1</h3>
+<div class="sg-example lastUnit">
+  <div class="row">  
+    <div class="unit size1of1 lastUnit">
+      <p>1/1</p>
+    </div>            
+  </div>  
+</div>
+
+{% highlight html %}
+<div class="row">  
+  <div class="unit size1of1 lastUnit">
+    <p>1/1</p>
+  </div>            
+</div>  
+{% endhighlight %}
+
+<h3>1of2</h3>
+<div class="sg-example lastUnit">
+  <div class="row">  
+    <div class="unit size1of2">
+      <p>1/2</p>
+    </div> 
+    <div class="unit size1of2 lastUnit">
+      <p>1/2</p>
+    </div>           
+  </div>  
+</div>
+
+{% highlight html %}
+<div class="row">  
+  <div class="unit size1of2">
+    <p>1/2</p>
+  </div> 
+  <div class="unit size1of2 lastUnit">
+    <p>1/2</p>
+  </div>            
+</div>  
+{% endhighlight %}
+
+<h3>1of3</h3>
+<div class="sg-example lastUnit">
+  <div class="row">  
+    <div class="unit size1of3">
+      <p>1/3</p>
+    </div> 
+    <div class="unit size1of3">
+      <p>1/3</p>
+    </div> 
+    <div class="unit size1of3 lastUnit">
+      <p>1/3</p>
+    </div>           
+  </div>  
+</div>
+
+{% highlight html %}
+<div class="row">  
+  <div class="row">  
+    <div class="unit size1of3">
+      <p>1/3</p>
+    </div> 
+    <div class="unit size1of3">
+      <p>1/3</p>
+    </div> 
+    <div class="unit size1of3 lastUnit">
+      <p>1/3</p>
+    </div>           
+</div>  
+{% endhighlight %}
+
+<h3>1of4</h3>
+<div class="sg-example lastUnit">
+  <div class="row">  
+    <div class="unit size1of4">
+      <p>1/4</p>
+    </div> 
+    <div class="unit size1of4">
+      <p>1/4</p>
+    </div> 
+    <div class="unit size1of4">
+      <p>1/4</p>
+    </div>  
+    <div class="unit size1of4 lastUnit">
+      <p>1/4</p>
+    </div>          
+  </div>  
+</div>
+
+{% highlight html %}
+<div class="row">  
+  <div class="row">  
+    <div class="unit size1of4">
+      <p>1/4</p>
+    </div> 
+    <div class="unit size1of4">
+      <p>1/4</p>
+    </div> 
+    <div class="unit size1of4">
+      <p>1/4</p>
+    </div> 
+    <div class="unit size1of4 lastUnit">
+      <p>1/4</p>
+    </div>           
+</div>  
+{% endhighlight %}
+
+
+<h3>1of6</h3>
+<div class="sg-example lastUnit">
+  <div class="row">  
+    <div class="unit size1of6">
+      <p>1/6</p>
+    </div> 
+    <div class="unit size1of6">
+      <p>1/6</p>
+    </div> 
+    <div class="unit size1of6">
+      <p>1/6</p>
+    </div>  
+    <div class="unit size1of6">
+      <p>1/6</p>
+    </div>  
+    <div class="unit size1of6">
+      <p>1/6</p>
+    </div>
+    <div class="unit size1of6 lastUnit">
+      <p>1/6</p>
+    </div>        
+  </div>  
+</div>
+
+{% highlight html %}
+<div class="row">  
+  <div class="row">  
+    <div class="unit size1of6">
+      <p>1/6</p>
+    </div> 
+    <div class="unit size1of6">
+      <p>1/6</p>
+    </div> 
+    <div class="unit size1of6">
+      <p>1/6</p>
+    </div> 
+    <div class="unit size1of6">
+      <p>1/6</p>
+    </div>
+    <div class="unit size1of6">
+      <p>1/6</p>
+    </div>
+    <div class="unit size1of6 lastUnit">
+      <p>1/6</p>
+    </div>           
+</div>  
+{% endhighlight %}
+
+<h3>1of8</h3>
+<div class="sg-example lastUnit">
+  <div class="row">  
+    <div class="unit size1of8">
+      <p>1/8</p>
+    </div> 
+    <div class="unit size1of8">
+      <p>1/8</p>
+    </div> 
+    <div class="unit size1of8">
+      <p>1/8</p>
+    </div>  
+    <div class="unit size1of8">
+      <p>1/8</p>
+    </div>  
+    <div class="unit size1of8">
+      <p>1/8</p>
+    </div>
+    <div class="unit size1of8">
+      <p>1/8</p>
+    </div>
+    <div class="unit size1of8">
+      <p>1/8</p>
+    </div>
+    <div class="unit size1of8 lastUnit">
+      <p>1/8</p>
+    </div>        
+  </div>  
+</div>
+
+{% highlight html %}
+<div class="row">  
+  <div class="row">  
+    <div class="unit size1of8">
+      <p>1/8</p>
+    </div> 
+    <div class="unit size1of8">
+      <p>1/8</p>
+    </div> 
+    <div class="unit size1of8">
+      <p>1/8</p>
+    </div>  
+    <div class="unit size1of8">
+      <p>1/8</p>
+    </div>  
+    <div class="unit size1of8">
+      <p>1/8</p>
+    </div>
+    <div class="unit size1of8">
+      <p>1/8</p>
+    </div>
+    <div class="unit size1of8">
+      <p>1/8</p>
+    </div>
+    <div class="unit size1of8 lastUnit">
+      <p>1/8</p>
+    </div>           
+</div>  
+{% endhighlight %}
+
+<h3>1of12</h3>
+<div class="sg-example lastUnit">
+  <div class="row">  
+    <div class="unit size1of12">
+      <p>1/12</p>
+    </div> 
+    <div class="unit size1of12">
+      <p>1/12</p>
+    </div> 
+    <div class="unit size1of12">
+      <p>1/12</p>
+    </div>  
+    <div class="unit size1of12">
+      <p>1/12</p>
+    </div>  
+    <div class="unit size1of12">
+      <p>1/12</p>
+    </div>
+    <div class="unit size1of12">
+      <p>1/12</p>
+    </div>
+    <div class="unit size1of12">
+      <p>1/12</p>
+    </div>
+    <div class="unit size1of12">
+      <p>1/12</p>
+    </div>
+    <div class="unit size1of12">
+      <p>1/12</p>
+    </div>
+    <div class="unit size1of12">
+      <p>1/12</p>
+    </div>
+    <div class="unit size1of12">
+      <p>1/12</p>
+    </div>
+    <div class="unit size1of12 lastUnit">
+      <p>1/12</p>
+    </div>        
+  </div>  
+</div>
+
+{% highlight html %}
+<div class="row">  
+  <div class="row">  
+    <div class="unit size1of12">
+      <p>1/12</p>
+    </div> 
+    <div class="unit size1of12">
+      <p>1/12</p>
+    </div> 
+    <div class="unit size1of12">
+      <p>1/12</p>
+    </div>  
+    <div class="unit size1of12">
+      <p>1/12</p>
+    </div>  
+    <div class="unit size1of12">
+      <p>1/12</p>
+    </div>
+    <div class="unit size1of12">
+      <p>1/12</p>
+    </div>
+    <div class="unit size1of12">
+      <p>1/12</p>
+    </div>
+    <div class="unit size1of12">
+      <p>1/12</p>
+    </div>
+    <div class="unit size1of12">
+      <p>1/12</p>
+    </div>
+    <div class="unit size1of12">
+      <p>1/12</p>
+    </div>
+    <div class="unit size1of12">
+      <p>1/12</p>
+    </div>
+    <div class="unit size1of12 lastUnit">
+      <p>1/12</p>
+    </div>            
+</div>  
+{% endhighlight %}
+
+<h2>Responsive proportions</h2>
+<p>Additional sizes and proportions with breakpoints.</p>
+
+<div class="table-responsive">
+  <table>
+    <thead>
+      <tr>
+        <th>Grid proportions</th>
+        <th>Base (mobile)</th>
+        <th>Medium (tablet, etc.)</th>
+        <th>Large (monitor, tv, etc.)</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1of12</td>
+        <td>100%</td>
+        <td>16.6666667%</td>
+        <td>8.33333333%</td>
+      </tr>
+      <tr>
+        <td>1of8</td>
+        <td>100%</td>
+        <td>25%</td>
+        <td>12.5%</td>
+      </tr>
+      <tr>
+        <td>1of6, 2of12</td>
+        <td>100%</td>
+        <td>100%</td>
+        <td>16.6666667%</td>
+      </tr>
+      <tr>
+        <td>1of4, 2of8, 3of12</td>
+        <td>100%</td>
+        <td>50%</td>
+        <td>25%</td>
+      </tr>
+      <tr>
+        <td>1of3, 2of6, 4of12</td>
+        <td>100%</td>
+        <td>100%</td>
+        <td>33.3333333%</td>
+      </tr>
+      <tr>
+        <td>1of2, 2of4, 3of6, 4of8, 6of12</td>
+        <td>100%</td>
+        <td>50%</td>
+        <td>50%</td>
+      </tr>
+      <tr>
+        <td>1of1, 2of2, 3of3, 4of4, 6of6, 8of8, 12of12</td>
+        <td>100%</td>
+        <td>100%</td>
+        <td>100%</td>
+      </tr>
+      <tr>
+        <td>2of3, 4of6, 8of12</td>
+        <td>100%</td>
+        <td>100%</td>
+        <td>66.6666667%</td>
+      </tr>
+      <tr>
+        <td>3of4, 6of8, 9of12</td>
+        <td>100%</td>
+        <td>100%</td>
+        <td>75%</td>
+      </tr>
+      <tr>
+        <td>5of6, 10of12</td>
+        <td>100%</td>
+        <td>100%</td>
+        <td>83.333333%</td>
+      </tr>
+      <tr>
+        <td>3of8</td>
+        <td>100%</td>
+        <td>100%</td>
+        <td>37.5%</td>
+      </tr>
+      <tr>
+        <td>5of8</td>
+        <td>100%</td>
+        <td>100%</td>
+        <td>62.5%</td>
+      </tr>
+      <tr>
+        <td>7of8</td>
+        <td>100%</td>
+        <td>100%</td>
+        <td>87.5%</td>
+      </tr>
+      <tr>
+        <td>5of12</td>
+        <td>100%</td>
+        <td>100%</td>
+        <td>41.6666667%</td>
+      </tr>
+      <tr>
+        <td>7of12</td>
+        <td>100%</td>
+        <td>100%</td>
+        <td>58.3333333%</td>
+      </tr>
+      <tr>
+        <td>11of12</td>
+        <td>100%</td>
+        <td>100%</td>
+        <td>91.6666667%</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h2>Mixed grids</h2>
+<p>Grid sizes can be mixed using the 'group' and 'nested' classes.</p>
+<p>Proportions can be maintained across all viewports for sizes 1of2, 1of3, and 1of4 using the 'preserve' class.</p>
+
+<div class="sg-example lastUnit">
+  <div class="unit size1of2 group">
+    <div class="unit size1of3 nested preserve">
+      <p>1/3</p>
+    </div>
+    <div class="unit size2of3 nested preserve">
+      <p>2/3</p>
+    </div>
+  </div>
+  <div class="unit size1of2 group">
+    <div class="unit size1of4 nested">
+      <p>1/4</p>
+    </div>
+    <div class="unit size1of4 nested">
+      <p>1/4</p>
+    </div>
+    <div class="unit size1of4 nested">
+      <p>1/4</p>
+    </div>
+    <div class="unit size1of4 nested">
+      <p>1/4</p>
+    </div>
+  </div>
+</div>
+
+{% highlight html %}
+<div class="row">  
+  <div class="unit size1of2 group">
+    <div class="unit size1of3 nested preserve">
+      <p>1/3</p>
+    </div>
+    <div class="unit size2of3 nested preserve">
+      <p>2/3</p>
+    </div>
+  </div>
+  <div class="unit size1of2 group">
+    <div class="unit size1of4 nested">
+      <p>1/4</p>
+    </div>
+    <div class="unit size1of4 nested">
+      <p>1/4</p>
+    </div>
+    <div class="unit size1of4 nested">
+      <p>1/4</p>
+    </div>
+    <div class="unit size1of4 nested">
+      <p>1/4</p>
+    </div>
+  </div>           
+</div>  
+{% endhighlight %}
+
+<div class="sg-example lastUnit">
+  <div class="unit size1of2 group">
+    <div class="unit size1of3 nested preserve">
+      <p>1/3</p>
+    </div>
+    <div class="unit size2of3 nested preserve">
+      <p>2/3</p>
+    </div>
+    <div class="row">
+      <div class="unit size1of2">
+        <p>1of2</p>
+      </div>
+      <div class="unit size1of2">
+        <p>1of2</p>
+      </div>
+    </div>
+  </div>
+  <div class="unit size1of2 group">
+    <div class="unit size1of3 nested">
+      <p>1/3</p>
+    </div>
+    <div class="unit size1of3 nested">
+      <p>1/3</p>
+    </div>
+    <div class="unit size1of3 nested">
+      <p>1/3</p>
+    </div>
+  </div>
+</div>
+
+{% highlight html %}
+<div class="row">  
+  <div class="unit size1of2 group">
+    <div class="unit size1of3 nested preserve">
+      <p>1/3</p>
+    </div>
+    <div class="unit size2of3 nested preserve">
+      <p>2/3</p>
+    </div>
+    <div class="row">
+      <div class="unit size1of2">
+        <p>1of2</p>
+      </div>
+      <div class="unit size1of2">
+        <p>1of2</p>
+      </div>
+    </div>
+  </div>
+  <div class="unit size1of2 group">
+    <div class="unit size1of3 nested">
+      <p>1/3</p>
+    </div>
+    <div class="unit size1of3 nested">
+      <p>1/3</p>
+    </div>
+    <div class="unit size1of3 nested">
+      <p>1/3</p>
+    </div>
+  </div>     
+</div>  
+{% endhighlight %}
+

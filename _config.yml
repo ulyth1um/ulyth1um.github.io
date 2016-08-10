@@ -10,7 +10,7 @@ title: M. Duncan | Designer, web developer, business owner
 email: michael@mduncan.me
 description: "I'm M. Duncan: a designer, web developer, and small business owner"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://127.0.0.1:4000" # the base hostname & protocol for your site
+url: "https://ulyth1um.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 

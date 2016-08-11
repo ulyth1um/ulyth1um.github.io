@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Before I write a business plan"
+title:  "Before I Write a Business Plan"
 date:   2016-08-07 12:00:00
 categories: business
 ---

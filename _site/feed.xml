@@ -5,8 +5,8 @@
     <description>I&#39;m M. Duncan: a designer, web developer, and small business owner</description>
     <link>http://mduncan.me/</link>
     <atom:link href="http://mduncan.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 23 Aug 2016 07:46:21 -0400</pubDate>
-    <lastBuildDate>Tue, 23 Aug 2016 07:46:21 -0400</lastBuildDate>
+    <pubDate>Tue, 23 Aug 2016 07:49:56 -0400</pubDate>
+    <lastBuildDate>Tue, 23 Aug 2016 07:49:56 -0400</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -15,7 +15,9 @@
 
 &lt;p&gt;Here’s an example from one &lt;a href=&quot;http://gsl.mit.edu/media/programs/india-bms-summer-2013/materials/how-to-write-a-great-business-plan.pdf&quot;&gt;Harvard Business Review article&lt;/a&gt;:&lt;/p&gt;
 
-&lt;p&gt;“If you want to speak the language of investors and also make sure you have asked yourself the right questions before setting out on the most daunting journey of a businessperson’s career—I recommend basing your business plan on the framework that follows.” &lt;sup&gt;1&lt;/sup&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“If you want to speak the language of investors and also make sure you have asked yourself the right questions before setting out on the most daunting journey of a businessperson’s career—I recommend basing your business plan on the framework that follows.” &lt;sup&gt;1&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;Their assumption is that your business will need significant funding. By following their instructions, you can be sure that your plan will serve a very narrow purpose. You might not use it beyond the funding phase. It will have boring section titles like ‘executive summary’ and ‘personnel plan.’&lt;/p&gt;
 

@@ -9,7 +9,7 @@ There are many books, articles, and websites that explain how to write a busines
 
 Here's an example from one [Harvard Business Review article](http://gsl.mit.edu/media/programs/india-bms-summer-2013/materials/how-to-write-a-great-business-plan.pdf):
 
-"If you want to speak the language of investors and also make sure you have asked yourself the right questions before setting out on the most daunting journey of a businessperson's career—I recommend basing your business plan on the framework that follows." <sup>1</sup>
+> "If you want to speak the language of investors and also make sure you have asked yourself the right questions before setting out on the most daunting journey of a businessperson's career—I recommend basing your business plan on the framework that follows." <sup>1</sup>
 
 Their assumption is that your business will need significant funding. By following their instructions, you can be sure that your plan will serve a very narrow purpose. You might not use it beyond the funding phase. It will have boring section titles like 'executive summary' and 'personnel plan.'
 

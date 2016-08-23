@@ -3,11 +3,70 @@
   <channel>
     <title>M. Duncan | Designer, web developer, business owner</title>
     <description>I&#39;m M. Duncan: a designer, web developer, and small business owner</description>
-    <link>http://127.0.0.1:4000/</link>
-    <atom:link href="http://127.0.0.1:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 11 Aug 2016 09:30:53 -0400</pubDate>
-    <lastBuildDate>Thu, 11 Aug 2016 09:30:53 -0400</lastBuildDate>
+    <link>http://mduncan.me/</link>
+    <atom:link href="http://mduncan.me/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 23 Aug 2016 07:46:21 -0400</pubDate>
+    <lastBuildDate>Tue, 23 Aug 2016 07:46:21 -0400</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>A Zero Investor Business Plan</title>
+        <description>&lt;p&gt;There are many books, articles, and websites that explain how to write a business plan. Most tell you to follow their advice on what investors will want to see and plan accordingly. And if you want to start a small business, they say focus on a local bank instead.&lt;/p&gt;
+
+&lt;p&gt;Here’s an example from one &lt;a href=&quot;http://gsl.mit.edu/media/programs/india-bms-summer-2013/materials/how-to-write-a-great-business-plan.pdf&quot;&gt;Harvard Business Review article&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;“If you want to speak the language of investors and also make sure you have asked yourself the right questions before setting out on the most daunting journey of a businessperson’s career—I recommend basing your business plan on the framework that follows.” &lt;sup&gt;1&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Their assumption is that your business will need significant funding. By following their instructions, you can be sure that your plan will serve a very narrow purpose. You might not use it beyond the funding phase. It will have boring section titles like ‘executive summary’ and ‘personnel plan.’&lt;/p&gt;
+
+&lt;p&gt;But there are a lot of different ways to write a business plan.&lt;/p&gt;
+
+&lt;p&gt;I knew I wouldn’t want outside funding to start my design business. So I had to rethink the whole point of my business plan. While the books and articles offered a lot of good advice,&lt;sup&gt;2&lt;/sup&gt; I had to write for a different audience: me.&lt;/p&gt;
+
+&lt;p&gt;I didn’t focus on investors or the bank. Instead, I made a resource that I can reference again and again. It’s something I would look forward to actually using.&lt;/p&gt;
+
+&lt;p&gt;My plan includes several things that aren’t often mentioned in books or articles:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Client personas&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I spent time creating profiles, or personas, for the different types of clients I hope to work with. I used the same personas again when I designed a brand identity and website for my business. And again when I created an editorial strategy.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Editorial and content strategy&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Writing and talking about my business is a big part of attracting clients. I spent a lot of time creating an editorial calendar and setting goals to post to my website at least twice monthly. I also worked on a content strategy that I’ll refer to on a variety of business projects.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Milestones&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I read about milestones in &lt;a href=&quot;https://hbr.org/product/creating-business-plans-hbr-20-minute-manager-series/16998E-KND-ENG&quot;&gt;&lt;em&gt;Creating Business Plans&lt;/em&gt;&lt;/a&gt;. This is one recommendation I gladly took. But this is the only book or article that mentioned anything like it.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“A milestone plan gives your readers a timeline for the creation of a successful business. Develop an ambitious schedule that you can meet, while still giving yourself room to handle unexpected problems that may slow you down….Use generic dates, such as “month six” or “year one” rather than actual dates.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Milestones aren’t calendar events, they are only for large and important events. I reference my milestones spreadsheet weekly. It’s incredibly useful.&lt;/p&gt;
+
+&lt;p&gt;I think the best business plans are purpose built. They address the needs of the business owner. Investors may not be necessary.&lt;/p&gt;
+
+&lt;p&gt;Since I’m not looking for investors, I documented implementation details that make self-funding possible. I planned to start as soon as I could with resources that I had available. My business plan, written for me instead of some mythical investor, reflects this strategy. I reference parts of it all the time. By broadening the scope, I’ve created a living document that’s vital to my day to day work.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;span class=&quot;meta&quot;&gt;Footnotes&lt;/span&gt;
+
+  &lt;ol&gt;
+    &lt;li&gt;Typical business writing hyperbole. &lt;/li&gt;
+    &lt;li&gt;I agree that a good business plan requires asking the right questions.&lt;/li&gt;
+  &lt;/ol&gt;
+
+&lt;/div&gt;
+</description>
+        <pubDate>Sun, 07 Aug 2016 08:00:00 -0400</pubDate>
+        <link>http://mduncan.me/business-plans/2016/08/07/a-zero-investor-business-plan.html</link>
+        <guid isPermaLink="true">http://mduncan.me/business-plans/2016/08/07/a-zero-investor-business-plan.html</guid>
+        
+        
+        <category>business-plans</category>
+        
+      </item>
     
       <item>
         <title>Before I Write a Business Plan</title>
@@ -81,18 +140,18 @@
 
   &lt;ol&gt;
     &lt;li&gt;Who conducted the study, using what methods? What are their biases?&lt;/li&gt;
-    &lt;li&gt;Niche Market, Wikipedia &lt;a href=&quot;https://en.wikipedia.org/wiki/Niche_market&quot;&gt;&amp;#8618;&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;Cash Flow, Wikipedia &lt;a href=&quot;https://en.wikipedia.org/wiki/Cash_flow&quot;&gt;&amp;#8618;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;Niche Market, Wikipedia.org &lt;a href=&quot;https://en.wikipedia.org/wiki/Niche_market&quot;&gt;&amp;#8618;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;Cash Flow, Wikipedia.org &lt;a href=&quot;https://en.wikipedia.org/wiki/Cash_flow&quot;&gt;&amp;#8618;&lt;/a&gt;&lt;/li&gt;
   &lt;/ol&gt;
 
 &lt;/div&gt;
 </description>
         <pubDate>Sun, 07 Aug 2016 08:00:00 -0400</pubDate>
-        <link>http://127.0.0.1:4000/business/2016/08/07/before-I-write-a-business-plan.html</link>
-        <guid isPermaLink="true">http://127.0.0.1:4000/business/2016/08/07/before-I-write-a-business-plan.html</guid>
+        <link>http://mduncan.me/business-plans/2016/08/07/before-I-write-a-business-plan.html</link>
+        <guid isPermaLink="true">http://mduncan.me/business-plans/2016/08/07/before-I-write-a-business-plan.html</guid>
         
         
-        <category>business</category>
+        <category>business-plans</category>
         
       </item>
     

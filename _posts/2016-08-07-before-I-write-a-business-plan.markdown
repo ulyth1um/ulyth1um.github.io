@@ -2,7 +2,7 @@
 layout: post
 title:  "Before I Write a Business Plan"
 date:   2016-08-07 12:00:00
-categories: business
+categories: business-plans
 ---
 
 Good business plans take time.
@@ -63,8 +63,8 @@ If, however, I'm satisfied with all of my answers, I'm ready to start a business
 
   <ol>
     <li>Who conducted the study, using what methods? What are their biases?</li>
-    <li>Niche Market, Wikipedia <a href="https://en.wikipedia.org/wiki/Niche_market">&#8618;</a></li>
-    <li>Cash Flow, Wikipedia <a href="https://en.wikipedia.org/wiki/Cash_flow">&#8618;</a></li>
+    <li>Niche Market, Wikipedia.org <a href="https://en.wikipedia.org/wiki/Niche_market">&#8618;</a></li>
+    <li>Cash Flow, Wikipedia.org <a href="https://en.wikipedia.org/wiki/Cash_flow">&#8618;</a></li>
   </ol>
 
 </div>

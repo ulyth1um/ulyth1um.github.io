@@ -21,15 +21,15 @@ I didn't focus on investors or the bank. Instead, I made a resource that I can r
 
 My plan includes several things that aren't often mentioned in books or articles:
 
-**Client personas**
+### Client personas
 
 I spent time creating profiles, or personas, for the different types of clients I hope to work with. I used the same personas again when I designed a brand identity and website for my business. And again when I created an editorial strategy.
 
-**Editorial and content strategy**
+### Editorial and content strategy
 
 Writing and talking about my business is a big part of attracting clients. I spent a lot of time creating an editorial calendar and setting goals to post to my website at least twice monthly. I also worked on a content strategy that I'll refer to on a variety of business projects.
 
-**Milestones**
+### Milestones
 
 I read about milestones in [_Creating Business Plans_](https://hbr.org/product/creating-business-plans-hbr-20-minute-manager-series/16998E-KND-ENG). This is one recommendation I gladly took. But this is the only book or article that mentioned anything like it.
 

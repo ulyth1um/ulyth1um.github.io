@@ -1,41 +1,38 @@
 table {
+  @include margin-trailer(2);
   border-collapse: collapse;
 }
 
 td, th {
-  @include adjust-font-size-to(14px);
-  padding: 1rem;
+  @include adjust-font-size-to(12px);
+  border-right: 2px solid $body;
+  padding: 0.75rem;
   text-align: left;
 }
 
-td {
-  border: 1px solid $dark;
+tr {
+  border-bottom: 2px solid $body;
 }
 
 th {
-  border-top: 1px solid $dark;
-  font-family: 'AvenirNext-Medium', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
   @include adjust-font-size-to(12px);
-  text-transform: uppercase;;
+  font-family: 'AvenirNext-Medium', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+  text-transform: uppercase;
 }
 
-th:first-child {
-  border-left: 1px solid $dark;
+
+th:last-child, td:last-child {
+  border-right: none;
 }
 
-th:last-child {
-  border-right: 1px solid $dark;
+tr:last-child {
+  border-bottom: none;
 }
 
-th, tr:nth-child(even) {
-  background-color: $gray;
-}
-
-.table-responsive {
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
-  @media #{$large} {
-    overflow: visible;
-  }
+.responsive-table {
+  width: 100%;
+	overflow-y: auto;
+	_overflow: auto;
+	margin: 0 0 1em;
 }
 

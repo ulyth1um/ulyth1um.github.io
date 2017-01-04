@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Business Milestone Planning"
+url: "/business-milestone-planning"
 date:   2017-01-02 12:00:00
 categories: business
 ---

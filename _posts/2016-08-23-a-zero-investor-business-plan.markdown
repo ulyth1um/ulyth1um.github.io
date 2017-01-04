@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "A Zero Investor Business Plan"
+url: "/a-zero-investor-business-plan"
 date:   2016-08-07 12:00:00
 categories: business-plans
 ---

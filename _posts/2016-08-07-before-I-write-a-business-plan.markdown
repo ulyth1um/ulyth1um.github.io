@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Before I Write a Business Plan"
+url: "/before-I-write-a-business-plan"
 date:   2016-08-07 12:00:00
 categories: business-plans
 ---

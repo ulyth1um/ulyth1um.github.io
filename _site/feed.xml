@@ -5,9 +5,48 @@
     <description>I'm M. Duncan: a Designer, Web Developer, and Small Business Owner</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 04 Jan 2017 16:40:03 -0500</pubDate>
-    <lastBuildDate>Wed, 04 Jan 2017 16:40:03 -0500</lastBuildDate>
+    <pubDate>Mon, 09 Jan 2017 10:59:56 -0500</pubDate>
+    <lastBuildDate>Mon, 09 Jan 2017 10:59:56 -0500</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>Year In Review: 2016</title>
+        <description>&lt;p&gt;2016 was a big set up year for me.&lt;/p&gt;
+
+&lt;p&gt;I worked on starting a side business selling design services and got ready to take on some clients. I &lt;em&gt;only just&lt;/em&gt; finished everything by the end of the year – and I really had to stretch myself to get it done. But I’m happy to note that I’ll be taking clients in 2017.&lt;/p&gt;
+
+&lt;p&gt;Here’s a quick list of what I did:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Switched departments at work, from Software Development to Marketing&lt;/li&gt;
+  &lt;li&gt;Changed job titles, from Front-end Developer to User Experience Designer&lt;/li&gt;
+  &lt;li&gt;Went to Web Design Day in Pittsburgh, a great conference&lt;/li&gt;
+  &lt;li&gt;Registered my business&lt;/li&gt;
+  &lt;li&gt;Completed my business plan&lt;/li&gt;
+  &lt;li&gt;Launched my website&lt;/li&gt;
+  &lt;li&gt;Landed my first client&lt;/li&gt;
+  &lt;li&gt;Almost bought a house&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;notes&quot;&gt;Notes&lt;/h2&gt;
+
+&lt;p&gt;At work I changed my job title to User Experience designer allowing me to focus more fully on research, strategy, analytics, and A/B testing.&lt;/p&gt;
+
+&lt;p&gt;Starting a side business while working full-time has been a challenge. More often than not I’m working early in the morning, at night, and on weekends. But I’m committed to making it work and I don’t plan on keeping these hours forever.&lt;/p&gt;
+
+&lt;p&gt;I also spent a lot of time creating processes and workflows to make client work more efficient. I’m already a process driven person, but these will help while I balance working a day job with managing a side business.&lt;/p&gt;
+
+&lt;p&gt;Looking forward to 2017, I’ll launch a couple of projects that allow me to do more public design work. I can’t say much now, but most of them will be announced and then written about here in the next couple of months.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 09 Jan 2017 07:00:00 -0500</pubDate>
+        <link>http://localhost:4000/year-in-review-2016</link>
+        <guid isPermaLink="true">http://localhost:4000/year-in-review-2016</guid>
+        
+        
+        <category>self</category>
+        
+      </item>
     
       <item>
         <title>Business Milestone Planning</title>

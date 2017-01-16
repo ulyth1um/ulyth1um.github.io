@@ -5,9 +5,49 @@
     <description>I'm M. Duncan: a Designer, Web Developer, and Small Business Owner</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 12 Jan 2017 07:53:59 -0500</pubDate>
-    <lastBuildDate>Thu, 12 Jan 2017 07:53:59 -0500</lastBuildDate>
+    <pubDate>Mon, 16 Jan 2017 13:26:38 -0500</pubDate>
+    <lastBuildDate>Mon, 16 Jan 2017 13:26:38 -0500</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>Content Inventory and Pattern Vocabularies in Web Design</title>
+        <description>&lt;p&gt;At the beginning of a web design project, it’s common to inventory content from the existing site. During a &lt;a href=&quot;https://www.usability.gov/how-to-and-tools/methods/content-inventory.html&quot;&gt;typical inventory&lt;/a&gt; I catalog page titles, urls, author, owner, and metadata in a big spreadsheet. It’s a good way to survey the content and figure out what areas need work.&lt;/p&gt;
+
+&lt;p&gt;But inventories can be doubly useful if you use a pattern based design methodology.&lt;sup&gt;1&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s a good opportunity to start thinking about what design patterns are needed on the new site. I’ve added additional columns to my inventory spreadsheet template for pattern names, categories, and descriptions. When I review and audit the inventory I look at the existing site for elements and sections that are similar or repeated often. Things to note, particularly in sites that weren’t built with patterns in mind, include sidebars, buttons, calls to action, or any similar elements that I see over and over again.&lt;/p&gt;
+
+&lt;p&gt;I’m also starting to think about vocabulary. What patterns need unique names and how do I classify them? This taxonomy – the pattern names and their classification – will form the basis of a pattern library later in the design process.&lt;/p&gt;
+
+&lt;!-- ![Inventory Pattern Vocabulary](/images/assets/posts/inventory-pattern-vocab.png){:width=&quot;500px&quot;} --&gt;
+
+&lt;figure&gt;
+    &lt;img src=&quot;/images/assets/posts/inventory-pattern-vocab.png&quot; width=&quot;500px&quot; /&gt;
+    &lt;figcaption class=&quot;meta small-caption&quot;&gt;
+      Additional columns added for pattern planning: pattern (name), category, and description. Also, there were no heading tags so I've made a note to correct them in the new site architecture.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+
+&lt;p&gt;My HTML, CSS, and front-end JavaScript are all created to address needs cataloged during this early inventory. It’s a great place to start whether you use &lt;a href=&quot;http://patternlab.io/&quot;&gt;Pattern Lab&lt;/a&gt; or your own system, like I do.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;span class=&quot;meta&quot;&gt;Footnotes&lt;/span&gt;
+
+  &lt;ol&gt;
+    &lt;li&gt;&lt;a href=&quot;http://styleguides.io/&quot;&gt;Style guides&lt;/a&gt;, &lt;a href=&quot;http://patternlab.io/&quot;&gt;pattern lab&lt;/a&gt;, &lt;a href=&quot;https://ux.mailchimp.com/patterns/about&quot;&gt;pattern library&lt;/a&gt;, are all different ways of approaching one methodology. &lt;/li&gt;
+  &lt;/ol&gt;
+
+&lt;/div&gt;
+
+</description>
+        <pubDate>Mon, 16 Jan 2017 07:00:00 -0500</pubDate>
+        <link>http://localhost:4000/content-inventory-and-pattern-vocabularies</link>
+        <guid isPermaLink="true">http://localhost:4000/content-inventory-and-pattern-vocabularies</guid>
+        
+        
+        <category>ux</category>
+        
+      </item>
     
       <item>
         <title>Year In Review: 2016</title>

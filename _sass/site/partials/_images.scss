@@ -3,6 +3,20 @@ img {
   max-height: 100%;
 }
 
-figure {
+article img {
+  @include margin-leader(1);
+  @include margin-trailer(0.5);
+
+}
+
+article figure {
   margin: 0;
+  @include margin-trailer(1.5);
+}
+
+.small-caption {
+  @include adjust-font-size-to(12px);
+  @include adjust-leading-to(1);
+
+  max-width: 500px;
 }

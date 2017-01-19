@@ -29,7 +29,7 @@ My HTML, CSS, and front-end JavaScript are all created to address needs cataloge
   <span class="meta">Footnotes</span>
 
   <ol>
-    <li><a href="http://styleguides.io/">Style guides</a>, <a href="http://patternlab.io/">pattern lab</a>, <a href="https://ux.mailchimp.com/patterns/about">pattern library</a>, are all different ways of approaching one methodology. </li>
+    <li><a href="http://styleguides.io/">Style guides</a>, <a href="http://patternlab.io/">Pattern Lab</a>, and <a href="https://ux.mailchimp.com/patterns/about">Mailchimp's pattern library</a>, are all different ways of approaching one methodology. </li>
   </ol>
 
 </div>

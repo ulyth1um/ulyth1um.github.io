@@ -2,7 +2,7 @@
 layout: post
 title:  "Pattern Naming Conventions in Web Design"
 url: "/pattern-naming-conventions-web-design-"
-date:   2017-02-23 12:00:00
+date:   2017-02-23 10:00:00
 categories: patterns
 ---
 

@@ -5,9 +5,71 @@
     <description>I'm M. Duncan: a Designer, Web Developer, and Small Business Owner</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 23 Feb 2017 10:06:53 -0500</pubDate>
-    <lastBuildDate>Thu, 23 Feb 2017 10:06:53 -0500</lastBuildDate>
+    <pubDate>Thu, 23 Feb 2017 11:20:43 -0500</pubDate>
+    <lastBuildDate>Thu, 23 Feb 2017 11:20:43 -0500</lastBuildDate>
     <generator>Jekyll v3.4.0</generator>
+    
+      <item>
+        <title>Monozurki In Web Design &amp; Development</title>
+        <description>&lt;p&gt;I came across the Japanese term ‘monozukuri’ in Monocle magazine. Roughly, it means “the art, science, and craft of making things.” Though there are many layers of meaning.&lt;sup&gt;1&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Monozukuri is a term that describes the philosophy behind a reinvigoration of Japan’s manufacturing industry in the 1990s. In reading about it I started thinking about how this philosophy could be applied to what I do: web design and development.&lt;/p&gt;
+
+&lt;p&gt;I understand it to mean when you make something, how you make it is just as important as what you produce. As a web designer and developer, there are three things that I like about Monozukuri.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-focus-on-intangibles&quot;&gt;A focus on intangibles&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;While Monozurki is used to describe technology and processes integrating development, production, and procurement, it also includes intangible qualities such as craftsmanship and dedication to continuous improvement.&lt;sup&gt;2&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It’s easy to move quickly from project to project, especially if someone else sets your deadlines for you. But this is a bad way to work. Your processes will become outdated and the product will suffer as a result.&lt;/p&gt;
+
+&lt;p&gt;If you have control over your project schedule you can build in time to focus on craftsmanship and continous improvement. After-project reviews are Monozukuri. During reviews you or your team can think about your work and ways to improve processes. This way you can review without distraction and before being burdened by the stress of the next project. It’s a great way to reflect on what worked and what didn’t.&lt;/p&gt;
+
+&lt;h2 id=&quot;appreciation-for-tools-and-processes-even-though-they-never-see-the-light-of-day&quot;&gt;Appreciation for tools and processes, even though they never see the light of day&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;. . . appreciation and reverence for things animate and inanimate . . . recognition of prototyping materials’ sacrifice is particularly interesting because they never got to fulfill their destiny of being made into products sold on the market and enjoyed by customers.&lt;sup&gt;3&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;We should always appreciate the process and tools that allow us to create a product. Enjoy them. Have reverence for them.&lt;/p&gt;
+
+&lt;p&gt;At the end of a project you’ll have a mountain of supporting material: research documents, wire frames, sketches, spreadsheets, source code . . . The final product might get all the attention, but most of the work happens in these materials and because of processes you’ve spent many hours developing.&lt;/p&gt;
+
+&lt;h2 id=&quot;de-emphasizing-the-person&quot;&gt;De-emphasizing the person&lt;/h2&gt;
+
+&lt;p&gt;The roots of Monozukuri are ‘mono’ and ‘zukuri.’&lt;sup&gt;4&lt;/sup&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;‘mono,’ the thing that is made, and ‘zukuri,’ the act of making. The person doing the making is de-emphasized.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;When we talk about creativity, we often focus on the person over the act. But focusing so much on the creator is a hinderance, particularly when we think about our own work. And if you’re like me, you don’t focus on good things like past accomplishments. You focus on failure. Especially when you’re an anxious or self-conscious creator. Someone else will always be the better programmer or designer.&lt;/p&gt;
+
+&lt;p&gt;By de-emphasizing the person – you and your ego – in the Monozukuri way, it’s easier to shift your focus away from insecurities and onto the process of making, where it belongs.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;span class=&quot;meta&quot;&gt;Footnotes&lt;/span&gt;
+
+  &lt;ol&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.japanintercultural.com/en/news/default.aspx?newsid=88&quot;&gt;Monozukuri -- Another Look at a Key Japanese Principle (Japanintercultural.com)]&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;Japanintercultural.com&lt;/li&gt;
+    &lt;li&gt;Japanintercultural.com&lt;/li&gt;
+    &lt;li&gt;Japanintercultural.com&lt;/li&gt;
+  &lt;/ol&gt;
+
+&lt;/div&gt;
+
+</description>
+        <pubDate>Thu, 23 Feb 2017 08:00:00 -0500</pubDate>
+        <link>http://localhost:4000/monozukuri-web-design</link>
+        <guid isPermaLink="true">http://localhost:4000/monozukuri-web-design</guid>
+        
+        
+        <category>ux</category>
+        
+      </item>
     
       <item>
         <title>Pattern Naming Conventions in Web Design</title>
@@ -28,7 +90,7 @@
 &lt;p&gt;The best thing about designing and developing with modular systems is their flexibility. It’s easy to use the underlying principles of something like Atomic Design but adapt them for the types of projects you work on. Look at the variety of systems out there: &lt;a href=&quot;http://patternlab.io/&quot;&gt;Pattern Lab&lt;/a&gt;, &lt;a href=&quot;https://www.lightningdesignsystem.com/&quot;&gt;Lightning Design System&lt;/a&gt;, MailChimp’s &lt;a href=&quot;https://ux.mailchimp.com/patterns&quot;&gt;Pattern Library&lt;/a&gt;. If you’re considering a pattern based approach to front-end design, don’t feel like you need to be locked into a specific tool. And it’s really not too difficult to develop your own.&lt;/p&gt;
 
 </description>
-        <pubDate>Thu, 23 Feb 2017 07:00:00 -0500</pubDate>
+        <pubDate>Thu, 23 Feb 2017 05:00:00 -0500</pubDate>
         <link>http://localhost:4000/pattern-naming-conventions</link>
         <guid isPermaLink="true">http://localhost:4000/pattern-naming-conventions</guid>
         

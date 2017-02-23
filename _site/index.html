@@ -61,6 +61,29 @@
         <div id="home-article">
   
     <article>
+    <h1><a href="/pattern-naming-conventions">Pattern Naming Conventions in Web Design</a></h1>
+    
+      <p>Unlike <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors">CSS selectors</a> – <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors">classes</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors">ids</a> – that no one except designers or developers see, some of us are exposing our <a href="http://patternlab.io/">design systems and their naming conventions</a> to clients during projects. Names of design elements are exposed in a way that they weren’t before. But do names really matter to our clients?</p>
+
+<p>If you’ve spent time working with any type of complex system, you know that naming things is important. Relationships and hierarchies are expressed through names. If <a href="https://en.wikipedia.org/wiki/Naming_convention_(programming)">naming conventions</a> don’t work or aren’t easy to follow, our understanding of the system falls apart. And that makes it hard to use and maintain.</p>
+
+<p>Pattern based design is an attempt a systematizing the design and front-end development of websites. In the <a href="http://atomicdesign.bradfrost.com/">Atomic Design</a> system naming conventions are an attempt to make the structure of the system more understandable. Single HTML elements are atoms, groups of elements are molecules, and sections are organisms.</p>
+
+<p>It works OK in practice. But I’ve found from experience that some clients struggle with the <a href="http://atomicdesign.bradfrost.com/chapter-2/">abstraction</a>. It can also be difficult for me to explain and a time consuming part of a meeting that we’d both like to keep short and to-the-point. My clients have mostly been concerned with the larger parts of the system: templates and pages, sometimes sections. But they’re mostly underwhelmed reviewing block level elements.</p>
+
+<p>So I don’t use abstract naming conventions or even expose them to lower-level patterns other than font choice and sizing.</p>
+
+<p>I have my own light-weight pattern library tool. While inspired by Atomic Design and Pattern Lab, it’s got a smaller footprint. Rather than abstract names at the top level of the system – atoms, molecules, organisms – I use more literal names. My top-level pattern categories are: elements, blocks, and sections. This naming convention is an attempt at more semantic naming. ‘Elements’ for example, correspond to basic HTML elements like ‘&lt;p&gt;’. Content blocks are just ‘blocks’. And sections are . . . ‘sections.’</p>
+
+<p>While I spend a little bit of time going over how I work with clients, I’m not that concerned with making sure they get the metaphor. I’d rather spend the limited time I have to get feedback on looking at the things they want to see in a context that’s familiar to them.</p>
+
+<p>The best thing about designing and developing with modular systems is their flexibility. It’s easy to use the underlying principles of something like Atomic Design but adapt them for the types of projects you work on. Look at the variety of systems out there: <a href="http://patternlab.io/">Pattern Lab</a>, <a href="https://www.lightningdesignsystem.com/">Lightning Design System</a>, MailChimp’s <a href="https://ux.mailchimp.com/patterns">Pattern Library</a>. If you’re considering a pattern based approach to front-end design, don’t feel like you need to be locked into a specific tool. And it’s really not too difficult to develop your own.</p>
+
+
+    
+    </article>
+  
+    <article>
     <h1><a href="/content-inventory-and-pattern-vocabularies">Content Inventory and Pattern Vocabularies in Web Design</a></h1>
     
       <p>At the beginning of a web design project, it’s common to inventory content from the existing site. During a <a href="https://www.usability.gov/how-to-and-tools/methods/content-inventory.html">typical inventory</a> I catalog page titles, urls, author, owner, and metadata in a big spreadsheet. It’s a good way to survey the content and figure out what areas need work.</p>
@@ -74,7 +97,7 @@
 <!-- ![Inventory Pattern Vocabulary](/images/assets/posts/inventory-pattern-vocab.png){:width="500px"} -->
 
 <figure>
-    <img src="/images/assets/posts/inventory-pattern-vocab.png" width="500px" />
+    <img src="/images/assets/posts/inventory-pattern-vocab2.png" width="100%" />
     <figcaption class="meta small-caption">
       Additional columns added for pattern planning: pattern (name), category, and description. Also, there were no heading tags so I've made a note to correct them in the new site architecture.
     </figcaption>
@@ -129,84 +152,12 @@
     
     </article>
   
-    <article>
-    <h1><a href="/business-milestone-planning">Business Milestone Planning</a></h1>
-    
-      <p>In business book jargon milestones are major events in the life of a business. They are performance benchmarks like “break-even” or big projects like “launch the website.” Identifying and documenting milestones before starting a business is a milestone plan. It gives you a roadmap to follow while you go about the daily task of running your business.</p>
-
-<p>I was introduced to milestone planning by <a href="https://hbr.org/">Harvard Business Review’s</a> book <a href="https://hbr.org/product/creating-business-plans-hbr-20-minute-manager-series/16998E-KND-ENG"><em>Creating Business Plans</em></a>. My milestone plan is part of my business plan, but it can be used independently too.</p>
-
-<p>According to the book:</p>
-
-<blockquote>
-  <p>A milestone plan gives readers a timeline for the creation of a successful business…Include only major events (not each individual step) and choose milestones that can be clearly defined and easily measured…Use generic dates, such as “month six” or “year one,” rather than actual dates.</p>
-</blockquote>
-
-<p>It shows major events taking place in one month increments starting when the business opens. It’s designed to be easy to show potential investors.</p>
-
-<p>My business plan, however, is mostly reference material for me – <a href="http://mduncan.me/a-zero-investor-business-plan">a guide I use to help me run my business</a>. So, my milestone plan also serves this purpose and required some modification.</p>
-
-<p>A timeline is a static graphic that’s difficult to change. Instead of a timeline I use a spreadsheet. I keep mine in Google Drive where I can make changes from any of my devices. My milestone plan isn’t set in stone – things inevitably come up – so it’s important to be able to move events and goals around and stay flexible.</p>
-
-<p>In addition to tracking when milestones will be completed, I’ve added two other parameters. I also track status – not started, in progress, and completed – and the quarter when I plan to work on it. These new parameters let me use my milestone plan as a productivity tool too. I check it weekly and use it to make sure I’m on schedule to accomplish larger goals throughout the year.</p>
-
-<p>Here’s what it looks like, if you’re curious:</p>
-
-<div class="responsive-table">
-  <table>
-    <tr>
-      <th>Year</th>
-      <th>Milestone</th>
-      <th>Status</th>
-      <th>Month Range</th>
-      <th>Quarter</th>    
-    </tr>
-    <tr>
-      <td>1</td>
-      <td>Apply for Employee Identification Number</td>
-      <td>Completed</td>
-      <td>Mar</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td>Sole Proprietorship business plan</td>
-      <td>Completed</td>
-      <td>Mar, Apr</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td>Client ready</td>
-      <td>Completed</td>
-      <td>Nov, Dec</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td>Revised business plan</td>
-      <td>Completed</td>
-      <td>Nov, Dec</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td>Publish regularly at website</td>
-      <td>In Progress</td>
-      <td>n/a</td>
-      <td>n/a</td>
-    </tr>
-  </table>
-</div>
-
-
-    
-    </article>
-  
 </div>
 
 <div id="home-previously-published">
   <h2>Previously</h2>  
+    
+      <h3><a href="/business-milestone-planning">Business Milestone Planning</a></h3>
     
       <h3><a href="/a-zero-investor-business-plan">A Zero Investor Business Plan</a></h3>
     

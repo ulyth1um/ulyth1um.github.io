@@ -5,9 +5,37 @@
     <description>I'm M. Duncan: a Designer, Web Developer, and Small Business Owner</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 19 Jan 2017 07:30:54 -0500</pubDate>
-    <lastBuildDate>Thu, 19 Jan 2017 07:30:54 -0500</lastBuildDate>
-    <generator>Jekyll v3.3.1</generator>
+    <pubDate>Thu, 23 Feb 2017 10:06:53 -0500</pubDate>
+    <lastBuildDate>Thu, 23 Feb 2017 10:06:53 -0500</lastBuildDate>
+    <generator>Jekyll v3.4.0</generator>
+    
+      <item>
+        <title>Pattern Naming Conventions in Web Design</title>
+        <description>&lt;p&gt;Unlike &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors&quot;&gt;CSS selectors&lt;/a&gt; – &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors&quot;&gt;classes&lt;/a&gt; and &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors&quot;&gt;ids&lt;/a&gt; – that no one except designers or developers see, some of us are exposing our &lt;a href=&quot;http://patternlab.io/&quot;&gt;design systems and their naming conventions&lt;/a&gt; to clients during projects. Names of design elements are exposed in a way that they weren’t before. But do names really matter to our clients?&lt;/p&gt;
+
+&lt;p&gt;If you’ve spent time working with any type of complex system, you know that naming things is important. Relationships and hierarchies are expressed through names. If &lt;a href=&quot;https://en.wikipedia.org/wiki/Naming_convention_(programming)&quot;&gt;naming conventions&lt;/a&gt; don’t work or aren’t easy to follow, our understanding of the system falls apart. And that makes it hard to use and maintain.&lt;/p&gt;
+
+&lt;p&gt;Pattern based design is an attempt a systematizing the design and front-end development of websites. In the &lt;a href=&quot;http://atomicdesign.bradfrost.com/&quot;&gt;Atomic Design&lt;/a&gt; system naming conventions are an attempt to make the structure of the system more understandable. Single HTML elements are atoms, groups of elements are molecules, and sections are organisms.&lt;/p&gt;
+
+&lt;p&gt;It works OK in practice. But I’ve found from experience that some clients struggle with the &lt;a href=&quot;http://atomicdesign.bradfrost.com/chapter-2/&quot;&gt;abstraction&lt;/a&gt;. It can also be difficult for me to explain and a time consuming part of a meeting that we’d both like to keep short and to-the-point. My clients have mostly been concerned with the larger parts of the system: templates and pages, sometimes sections. But they’re mostly underwhelmed reviewing block level elements.&lt;/p&gt;
+
+&lt;p&gt;So I don’t use abstract naming conventions or even expose them to lower-level patterns other than font choice and sizing.&lt;/p&gt;
+
+&lt;p&gt;I have my own light-weight pattern library tool. While inspired by Atomic Design and Pattern Lab, it’s got a smaller footprint. Rather than abstract names at the top level of the system – atoms, molecules, organisms – I use more literal names. My top-level pattern categories are: elements, blocks, and sections. This naming convention is an attempt at more semantic naming. ‘Elements’ for example, correspond to basic HTML elements like ‘&amp;lt;p&amp;gt;’. Content blocks are just ‘blocks’. And sections are . . . ‘sections.’&lt;/p&gt;
+
+&lt;p&gt;While I spend a little bit of time going over how I work with clients, I’m not that concerned with making sure they get the metaphor. I’d rather spend the limited time I have to get feedback on looking at the things they want to see in a context that’s familiar to them.&lt;/p&gt;
+
+&lt;p&gt;The best thing about designing and developing with modular systems is their flexibility. It’s easy to use the underlying principles of something like Atomic Design but adapt them for the types of projects you work on. Look at the variety of systems out there: &lt;a href=&quot;http://patternlab.io/&quot;&gt;Pattern Lab&lt;/a&gt;, &lt;a href=&quot;https://www.lightningdesignsystem.com/&quot;&gt;Lightning Design System&lt;/a&gt;, MailChimp’s &lt;a href=&quot;https://ux.mailchimp.com/patterns&quot;&gt;Pattern Library&lt;/a&gt;. If you’re considering a pattern based approach to front-end design, don’t feel like you need to be locked into a specific tool. And it’s really not too difficult to develop your own.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 23 Feb 2017 07:00:00 -0500</pubDate>
+        <link>http://localhost:4000/pattern-naming-conventions</link>
+        <guid isPermaLink="true">http://localhost:4000/pattern-naming-conventions</guid>
+        
+        
+        <category>patterns</category>
+        
+      </item>
     
       <item>
         <title>Content Inventory and Pattern Vocabularies in Web Design</title>
@@ -22,7 +50,7 @@
 &lt;!-- ![Inventory Pattern Vocabulary](/images/assets/posts/inventory-pattern-vocab.png){:width=&quot;500px&quot;} --&gt;
 
 &lt;figure&gt;
-    &lt;img src=&quot;/images/assets/posts/inventory-pattern-vocab.png&quot; width=&quot;500px&quot; /&gt;
+    &lt;img src=&quot;/images/assets/posts/inventory-pattern-vocab2.png&quot; width=&quot;100%&quot; /&gt;
     &lt;figcaption class=&quot;meta small-caption&quot;&gt;
       Additional columns added for pattern planning: pattern (name), category, and description. Also, there were no heading tags so I've made a note to correct them in the new site architecture.
     &lt;/figcaption&gt;
@@ -110,52 +138,7 @@
 
 &lt;p&gt;Here’s what it looks like, if you’re curious:&lt;/p&gt;
 
-&lt;div class=&quot;responsive-table&quot;&gt;
-  &lt;table&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Year&lt;/th&gt;
-      &lt;th&gt;Milestone&lt;/th&gt;
-      &lt;th&gt;Status&lt;/th&gt;
-      &lt;th&gt;Month Range&lt;/th&gt;
-      &lt;th&gt;Quarter&lt;/th&gt;    
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1&lt;/td&gt;
-      &lt;td&gt;Apply for Employee Identification Number&lt;/td&gt;
-      &lt;td&gt;Completed&lt;/td&gt;
-      &lt;td&gt;Mar&lt;/td&gt;
-      &lt;td&gt;1&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1&lt;/td&gt;
-      &lt;td&gt;Sole Proprietorship business plan&lt;/td&gt;
-      &lt;td&gt;Completed&lt;/td&gt;
-      &lt;td&gt;Mar, Apr&lt;/td&gt;
-      &lt;td&gt;2&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1&lt;/td&gt;
-      &lt;td&gt;Client ready&lt;/td&gt;
-      &lt;td&gt;Completed&lt;/td&gt;
-      &lt;td&gt;Nov, Dec&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1&lt;/td&gt;
-      &lt;td&gt;Revised business plan&lt;/td&gt;
-      &lt;td&gt;Completed&lt;/td&gt;
-      &lt;td&gt;Nov, Dec&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1&lt;/td&gt;
-      &lt;td&gt;Publish regularly at website&lt;/td&gt;
-      &lt;td&gt;In Progress&lt;/td&gt;
-      &lt;td&gt;n/a&lt;/td&gt;
-      &lt;td&gt;n/a&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/table&gt;
-&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/assets/posts/milestones-1.png&quot; alt=&quot;Milestone spreadsheet&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Mon, 02 Jan 2017 07:00:00 -0500</pubDate>

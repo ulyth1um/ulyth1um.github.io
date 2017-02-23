@@ -24,51 +24,6 @@ In addition to tracking when milestones will be completed, I've added two other 
 
 Here's what it looks like, if you're curious:
 
-<div class="responsive-table">
-  <table>
-    <tr>
-      <th>Year</th>
-      <th>Milestone</th>
-      <th>Status</th>
-      <th>Month Range</th>
-      <th>Quarter</th>    
-    </tr>
-    <tr>
-      <td>1</td>
-      <td>Apply for Employee Identification Number</td>
-      <td>Completed</td>
-      <td>Mar</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td>Sole Proprietorship business plan</td>
-      <td>Completed</td>
-      <td>Mar, Apr</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td>Client ready</td>
-      <td>Completed</td>
-      <td>Nov, Dec</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td>Revised business plan</td>
-      <td>Completed</td>
-      <td>Nov, Dec</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td>Publish regularly at website</td>
-      <td>In Progress</td>
-      <td>n/a</td>
-      <td>n/a</td>
-    </tr>
-  </table>
-</div>
+![Milestone spreadsheet]({{ site.url }}/images/assets/posts/milestones-1.png){:width="100%"}
 
 

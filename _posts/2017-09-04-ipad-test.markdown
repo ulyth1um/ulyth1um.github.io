@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Ipad test"
+url: "/iPad-test"
+date:   2017-09-04 10:00:00
+categories: mobile
+---
+
+Testing post from the iPad.
